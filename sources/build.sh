@@ -1,6 +1,6 @@
 set -e
 
-FONTS=$(ls ../fonts/*.ttf)
+FONTS=$(ls ../fonts/ttf/*.ttf)
 
 for font in $FONTS
 do
@@ -10,4 +10,4 @@ do
 done
 
 
-rm ../fonts/*backup*
+rm ../fonts/ttf/*backup*
